@@ -118,11 +118,11 @@ class MainActivity : AppCompatActivity() {
                 val gson = Gson()
              var sendMsgReq= SendMsgReq(
                  type="arrival",
-                subType= "triggered",
-                detail= "parcel-arrived",
-                timestamp="ABABDSDSDD123",
-                deviceKey="ABABDSDSDD123",
-                photoPath= "//some-location"
+                 subType= "triggered",
+                 detail= "parcel-arrived",
+                 timestamp="ABABDSDSDD123",
+                 deviceKey="ABABDSDSDD123",
+                 photoPath= "//some-location"
              )
                 val msg = gson.toJson(sendMsgReq)
                // var jsonObject= JSONObject(msg)
